@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import {Wifi ,Face } from 'react-eos-icons-vinayak-test';
 import './App.css';
 
