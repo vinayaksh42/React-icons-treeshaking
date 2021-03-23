@@ -3,6 +3,7 @@ node_modules
 /dist
 src/svg
 src/components
+newapp/node_modules
 
 # local env files
 .env.local
