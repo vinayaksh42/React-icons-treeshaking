@@ -1,18 +1,21 @@
 {
   "name": "react-eos-icons-vinayak-test",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.es.js",
   "scripts": {
+<<<<<<< HEAD
     "preinstall": "npm update eos-icons",
     "postinstall": "mkdir -p src/svg/ && cp node_modules/eos-icons/svg/*.svg src/svg/ && cp node_modules/eos-icons/svg/material/*.svg src/svg/ && cp node_modules/eos-icons/animated-svg/*.svg src/svg/",
+=======
+>>>>>>> 6ddc4b19fca24c8eab5e33126b3314770741492d
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "npx @svgr/cli src/svg  --out-dir src/components/ --icon --no-svgo && start-storybook -p 6006",
+    "storybook": "mkdir -p src/svg/ && cp node_modules/eos-icons/svg/*.svg src/svg/ && cp node_modules/eos-icons/svg/material/*.svg src/svg/ && cp node_modules/eos-icons/animated-svg/*.svg src/svg/ && npx @svgr/cli src/svg  --out-dir src/components/ --icon --no-svgo && start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build-lib": "npx @svgr/cli src/svg  --out-dir src/components/ --icon --no-svgo && rollup -c",
-    "build-run": "npx @svgr/cli src/svg  --out-dir src/components/ --icon --no-svgo && rollup -c && cd newapp && yarn install && yarn start",
-    "build-webpack": "npx @svgr/cli src/svg  --out-dir src/components/ --icon --no-svgo && rollup -c && cd newapp && yarn install && node analyse.js"
+    "build-lib": "mkdir -p src/svg/ && cp node_modules/eos-icons/svg/*.svg src/svg/ && cp node_modules/eos-icons/svg/material/*.svg src/svg/ && cp node_modules/eos-icons/animated-svg/*.svg src/svg/ && npx @svgr/cli src/svg  --out-dir src/components/ --icon --no-svgo && rollup -c",
+    "build-run": "cd newapp && yarn install && yarn start",
+    "build-webpack": "cd newapp && yarn install && node analyse.js"
   },
   "author": "Vinayak Sharma",
   "license": "MIT",

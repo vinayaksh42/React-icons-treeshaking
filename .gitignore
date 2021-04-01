@@ -1,8 +1,9 @@
 .DS_Store
 node_modules
-/dist
 src/svg
 src/components
+#make sure to remove dist from the list before publishing
+/dist
 newapp/node_modules
 
 # local env files
