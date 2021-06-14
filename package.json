@@ -5,11 +5,8 @@
   "main": "./dist/index.js",
   "module": "./dist/index.es.js",
   "scripts": {
-<<<<<<< HEAD
     "preinstall": "npm update eos-icons",
     "postinstall": "mkdir -p src/svg/ && cp node_modules/eos-icons/svg/*.svg src/svg/ && cp node_modules/eos-icons/svg/material/*.svg src/svg/ && cp node_modules/eos-icons/animated-svg/*.svg src/svg/",
-=======
->>>>>>> 6ddc4b19fca24c8eab5e33126b3314770741492d
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "mkdir -p src/svg/ && cp node_modules/eos-icons/svg/*.svg src/svg/ && cp node_modules/eos-icons/svg/material/*.svg src/svg/ && cp node_modules/eos-icons/animated-svg/*.svg src/svg/ && npx @svgr/cli src/svg  --out-dir src/components/ --icon --no-svgo && start-storybook -p 6006",
     "build-storybook": "build-storybook",
